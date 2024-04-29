@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aboutME </title>
- </head>
- <body>
-   <p id="test1" > Hello World </p>
-   <p id="test2"> DOM </p>
 
-    <p class ="heading" > Hello World </p>
-    <p class="heading"> DOM </p>
- 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>aboutME </title>
+</head>
+
+<body>
+
+<p class="heading" > Hello World </p>
+<p class="heading" > Hello World </p>
+<p class="happy" > happy World </p>
+<p class="heading" > Hello World </p>
+
+
+  <script>
     
-    <script>
-      console.log(document.getElementById("test1"))
-      console.log(document.getElementById("test2"))
+    console.log(document.getElementsByTagName("p")[2])
 
-      console.log(document.getElementsByClassName("heading"))
-    </script>
- </body>
+  </script>
+</body>
+
 </html>
