@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 2rem;
+            padding: 2rem;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            animation: example 1s linear infinite alternate ;
+            /* animation-fill-mode: forwards; */
+        }
+
+
+        @keyframes example {
+
+
+            form{
+                transform: matrix(0,0,0,0,0,0);
+            }
+            to {
+                transform: matrix(1, 2, 0.3, 2, 0, 0);
+
+            }
+
+
+         }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="box">
+
+        <p class="bg-yellow-300"> hello</p>
+
+    </div>
+
+</body>
+
+
+
+
+
+
+
+</html>
+<!-- box modal   -->
