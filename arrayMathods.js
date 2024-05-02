@@ -85,3 +85,5 @@
 //   console.log("chota hai")
 // }
 
+let arr = [1 , 2 , 3 , 4]
+arr.map()

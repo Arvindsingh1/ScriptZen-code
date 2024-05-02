@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
-    <p id="para"> normal ME </p>
 
-    <button id="btn"  >ClickMe</button>
+    <p id="para">Normal Me</p>
+
+    <button id="btn">ClickMe </button>
 
     <script>
 
+        
 
-    const added = () =>{
-        console.log("clicked");
-    };
-    
-   document.getElementById("para").innerHTML = "clicked Me"
+        document.getElementById("btn").addEventListener("click" , function name () {
+            document.getElementById("para").style.color = "red"
+        })
 
-  
+
+
+        // const handleClick = () => {
+        //    document.getElementById("para").innerHTML= "clicked Me "
+        // }
+
+        // // handleClick()
+        // document.getElementById("btn").addEventListener("click", handleClick)
+
 
     </script>
-    
+
 </body>
+
 </html>
